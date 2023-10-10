@@ -1,3 +1,5 @@
+import EditTopicForm from "@/components/EditForm";
+
 export default function EditTopic() {
-  return <div>Edit Topic</div>
-}
+  return <EditTopicForm/>
+};
