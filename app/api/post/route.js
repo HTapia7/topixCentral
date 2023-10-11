@@ -13,8 +13,8 @@ export const POST = async ( request ) => {
               content
             }
           })
-
-          return NextResponse.json(newPost);
+          
+      return NextResponse.json(newPost);
 
     } catch (error) {
       return NextResponse.json({ message: 'POST error' , error } , { status: 500})
