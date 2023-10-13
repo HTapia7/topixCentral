@@ -21,7 +21,7 @@ export default function AddTopic(){
         })
         .finally(() => {
           setUserInfo({});
-          router.refresh();
+          router.push('/');
           // alert("Added your content")
         })
      }
